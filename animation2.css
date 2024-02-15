@@ -120,7 +120,7 @@ button {
   #regreso {
     width: 35%;
     height: 8%;
-    top: 2%;
-    left: 4%;
+    padding-top: 1px;
+    padding-left: 6px;
   }
 }
