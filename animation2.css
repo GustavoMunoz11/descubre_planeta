@@ -22,7 +22,7 @@ button {
   border-radius: 10px;
   cursor: pointer;
   font-size: 1.2rem;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   text-decoration: none;
   color: white;
   overflow: hidden;
@@ -63,10 +63,18 @@ button {
   width: 38%;
   height: 60%;
   position: absolute;
-  right: 31%;
   top: 8%;
-  bottom: 10%;
-  left: 32%;
+  left: 37%;
+}
+
+#planet_container.small_planet {
+  width: 28%;
+  height: 40%;
+}
+
+#planet_container.large_planet {
+  width: 50%;
+  height: 75%;
 }
 
 @media screen and (max-width: 600px) {

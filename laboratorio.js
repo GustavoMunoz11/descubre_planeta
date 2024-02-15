@@ -55,29 +55,15 @@ function cambioClouds() {
 }
 
 function cambioSize() {
+  planet_container.classList.remove("small_planet");
+  planet_container.classList.remove("large_planet");
   if (clicks == 0) {
-    planet_container.style.width = "28%";
-    planet_container.style.height = "40%";
-    planet_container.style.marginTop = "5%";
-    planet_container.style.marginRight = "0%";
-    planet_container.style.marginLeft = "3%";
-    planet_container.style.marginBottom = "0%";
+    planet_container.classList.add("small_planet");
     clicks = 2;
   } else if (clicks == 2) {
-    planet_container.style.width = "50%";
-    planet_container.style.height = "75%";
-    planet_container.style.marginTop = "-7%";
-    planet_container.style.marginRight = "0%";
-    planet_container.style.marginLeft = "-5%";
-    planet_container.style.marginBottom = "0%";
+    planet_container.classList.add("large_planet");
     clicks = 3;
   } else {
-    planet_container.style.width = "38%";
-    planet_container.style.height = "60%";
-    planet_container.style.marginTop = "0%";
-    planet_container.style.marginRight = "0%";
-    planet_container.style.marginLeft = "0%";
-    planet_container.style.marginBottom = "0%";
     clicks = 0;
   }
 }
