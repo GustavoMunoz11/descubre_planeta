@@ -65,16 +65,21 @@ button {
   position: absolute;
   top: 8%;
   left: 34%;
+  left: 34%;
 }
 
 #planet_container.small_planet {
   width: 28%;
   height: 40%;
+  top: 13%;
+  left: 38%;
 }
 
 #planet_container.large_planet {
   width: 50%;
   height: 75%;
+  top: 0%;
+  left: 28%;
   left: 28%;
   top: 0%;
 }
@@ -89,19 +94,34 @@ button {
     width: 60%;
     height: 30%;
     left: 20%;
-    top: 19%;
+    top: 15%;
+  }
+
+  #planet_container.small_planet {
+    top: 22%;
+    left: 36%;
+  }
+
+  #planet_container.large_planet {
+    top: 17%;
+    left: 25%;
   }
 
   #planet_container.small_planet {
     width: 28%;
     height: 40%;
     left: 20%;
-    top: 19%;
+    top: 15%;
+  }
+
+  #planet_container.small_planet {
+    top: 22%;
+    left: 36%;
   }
 
   #planet_container.large_planet {
-    width: 50%;
-    height: 75%;
+    top: 17%;
+    left: 25%;
   }
 
   .boton_container {
@@ -120,5 +140,7 @@ button {
   #regreso {
     width: 35%;
     height: 8%;
+    padding-top: 0px;
+    padding-left: 9px;
   }
 }
