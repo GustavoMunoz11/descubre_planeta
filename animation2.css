@@ -90,18 +90,18 @@ button {
   #planet_container {
     width: 60%;
     height: 30%;
-    left: 24%;
+    left: 20%;
     top: 15%;
   }
 
   #planet_container.small_planet {
     top: 22%;
-    left: 40%;
+    left: 36%;
   }
 
   #planet_container.large_planet {
     top: 17%;
-    left: 28%;
+    left: 25%;
   }
 
   .boton_container {
