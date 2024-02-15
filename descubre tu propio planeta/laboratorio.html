@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="animation2.css" />
+    <link rel="shortcut icon" href="./img/logopaginactppgus.ico" />
+    <title>crea tu propio planeta</title>
+    <script defer src="./laboratorio.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <div id="animation_container">
+          <img
+            id="fondo"
+            src="./img/fondo2.jpg"
+            alt="imagen del espacio exterior"
+          />
+
+          <button id="regreso" onclick="location.href='./index.html'">
+            volver al observatorio
+          </button>
+
+          <div class="boton_container">
+            <button id="btn-clase">clase</button>
+            <button id="btn-superficie">superficie</button>
+            <button id="btn-luna">luna</button>
+            <button id="btn-anillos">anillos</button>
+            <button id="btn-nubes">nubes</button>
+            <button id="btn-tamaño">tamaño</button>
+          </div>
+
+          <div id="planet_container">
+            <img
+              src="./img/planetas/clase0.svg"
+              alt="capa clase"
+              id="img-clase"
+            />
+            <img src="./img/planetas/vacio.png" alt="capa luna" id="luna" />
+            <img
+              src="./img/planetas/vacio.png"
+              alt="capa superficie"
+              id="superficie"
+            />
+            <img
+              src="./img/planetas/vacio.png"
+              alt="capa anillos"
+              id="anillos"
+            />
+            <img src="./img/planetas/vacio.png" alt="capa nubes" id="nubes" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

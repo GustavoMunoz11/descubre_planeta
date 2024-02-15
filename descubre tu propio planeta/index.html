@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descubre tu propio planeta</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <script defer src="index.js"></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <div id="animation_container">
+          <img
+            id="fondo"
+            src="./img/fondo.svg"
+            alt="imagen de un observatorio espacial"
+          />
+
+          <img
+            id="fondo-m"
+            src="./img/fondo-m.svg"
+            alt="imagen de un observatorio espacial"
+          />
+
+          <img
+            id="estrella"
+            src="./img/estrella.svg"
+            alt="mira del telescopio"
+          />
+
+          <img
+            id="cientifica"
+            src="./img/cientifica.svg"
+            alt="imagen cientifica astronomica"
+          />
+
+          <div id="mensajes">
+            ¡bienvenido astronom@!, ¿list@ para descubrir planetas?, haz click
+            en "descubrir" para empezar a buscar en el telescopio, o si quieres,
+            puedes personalizar tu propio planeta a tu antojo, en ese caso haz
+            click en "crear"
+          </div>
+
+          <img
+            id="telescopio"
+            src="./img/telescopio.svg"
+            alt="imagen telescopio del observatorio"
+          />
+
+          <img
+            id="telescopio-m"
+            src="./img/telescopio-m.svg"
+            alt="imagen telescopio del observatorio"
+          />
+
+          <button id="discover">descubrir</button>
+          <button id="boton2" onClick="location.href='./laboratorio.html'">
+            crear
+          </button>
+
+          <div id="planet_container">
+            <img
+              src="./img/planetas/vacio.png"
+              alt="capa clase"
+              id="img-clase"
+            />
+            <img src="./img/planetas/vacio.png" alt="capa luna" id="luna" />
+            <img
+              src="./img/planetas/vacio.png"
+              alt="capa superficie"
+              id="superficie"
+            />
+            <img
+              src="./img/planetas/vacio.png"
+              alt="capa anillos"
+              id="anillos"
+            />
+            <img src="./img/planetas/vacio.png" alt="capa nubes" id="nubes" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

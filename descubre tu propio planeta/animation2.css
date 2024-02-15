@@ -1,0 +1,102 @@
+#animation_container {
+  width: 840px;
+  height: 588px;
+  position: relative;
+  overflow: hidden;
+}
+
+.boton_container {
+  display: grid;
+  height: 26%;
+  width: 60%;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(2, 3fr);
+  margin: 44%;
+  margin-left: 23%;
+  gap: 20px;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+}
+
+#regreso {
+  background-color: rgb(21, 44, 188);
+  width: 20%;
+  height: 10%;
+  top: 3%;
+  left: 5%;
+}
+
+.boton_container #btn-clase {
+  background-color: rgb(7, 157, 157);
+}
+
+.boton_container #btn-superficie {
+  background-color: brown;
+}
+
+.boton_container #btn-luna {
+  background-color: rgb(146, 146, 146);
+}
+
+.boton_container #btn-anillos {
+  background-color: rgb(77, 13, 95);
+}
+
+.boton_container #btn-nubes {
+  background-color: rgb(14, 128, 21);
+}
+
+.boton_container #btn-tamaño {
+  background-color: rgb(218, 182, 3);
+}
+#planet_container {
+  width: 38%;
+  height: 60%;
+  position: absolute;
+  right: 31%;
+  top: 8%;
+  bottom: 10%;
+  left: 32%;
+}
+
+@media screen and (max-width: 600px) {
+  #animation_container {
+    width: 300px;
+    height: 500px;
+  }
+
+  #planet_container {
+    width: 60%;
+    height: 30%;
+    left: 20%;
+    top: 19%;
+  }
+
+  .boton_container {
+    height: 35%;
+    width: 70%;
+    grid-template-columns: repeat(2, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+    margin-top: 86%;
+    margin-left: 15%;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  #regreso {
+    width: 35%;
+    height: 8%;
+  }
+}

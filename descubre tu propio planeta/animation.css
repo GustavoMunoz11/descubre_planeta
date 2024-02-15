@@ -1,0 +1,174 @@
+#animation_container {
+  width: 840px;
+  height: 588px;
+  position: relative;
+  overflow: hidden;
+}
+
+#fondo-m {
+  display: none;
+}
+
+#cientifica {
+  width: 18%;
+  left: 5%;
+  bottom: 0%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#mensajes {
+  width: 40%;
+  height: 35%;
+}
+
+.show-mensajes {
+  background-color: beige;
+  color: black;
+  padding-top: 3%;
+  font-size: 1.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 43%;
+  left: 23%;
+  z-index: 1;
+}
+
+#telescopio {
+  width: 38%;
+  left: 23%;
+  bottom: 0%;
+}
+
+#telescopio-m {
+  display: none;
+}
+
+#estrella {
+  width: 70%;
+  right: 0%;
+  top: 1%;
+}
+
+button {
+  width: 166px;
+  height: 75px;
+  bottom: 4%;
+  left: 54%;
+  font-size: 1.2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(2, 2, 93);
+  color: aliceblue;
+  position: absolute;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#boton2 {
+  width: 166px;
+  height: 75px;
+  bottom: 4%;
+  left: 76%;
+  background-color: rgb(2, 2, 93);
+  position: absolute;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#boton2:hover {
+  background-color: rgb(2, 2, 79);
+}
+button:hover {
+  background-color: rgb(2, 2, 79);
+}
+
+#planet_container {
+  width: 38%;
+  height: 56%;
+  position: absolute;
+  right: 11%;
+  top: 9%;
+}
+
+@media screen and (max-width: 600px) {
+  #animation_container {
+    width: 300px;
+    height: 500px;
+  }
+
+  #fondo {
+    display: none;
+  }
+
+  #fondo-m {
+    display: block;
+    width: 221%;
+    left: -62%;
+    top: -1%;
+  }
+
+  #cientifica {
+    width: 32%;
+    left: 4%;
+  }
+
+  #mensajes {
+    width: 80%;
+    height: 20%;
+  }
+
+  .show-mensajes {
+    font-size: 0.75rem;
+    top: 52%;
+    left: 10%;
+  }
+
+  #telescopio {
+    display: none;
+  }
+
+  #telescopio-m {
+    display: block;
+    width: 60%;
+    left: 3%;
+    bottom: 0%;
+  }
+
+  #estrella {
+    width: 136%;
+    left: -27%;
+  }
+
+  #planet_container {
+    width: 78%;
+    height: 40%;
+    left: 10%;
+    top: 5%;
+  }
+
+  button {
+    width: 100px;
+    height: 44px;
+    bottom: 15%;
+    left: 59%;
+    font-size: 1rem;
+  }
+
+  #boton2 {
+    width: 100px;
+    height: 44px;
+    bottom: 5%;
+    left: 59%;
+    font-size: 1rem;
+  }
+}
