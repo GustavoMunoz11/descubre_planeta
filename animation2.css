@@ -90,13 +90,13 @@ button {
   #planet_container {
     width: 60%;
     height: 30%;
-    left: 22%;
-    top: 14%;
+    left: 24%;
+    top: 15%;
   }
 
   #planet_container.small_planet {
     top: 22%;
-    left: 38%;
+    left: 40%;
   }
 
   #planet_container.large_planet {
