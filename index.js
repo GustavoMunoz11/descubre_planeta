@@ -30,12 +30,12 @@ function discoverPlanet() {
   let current_sur = Math.floor(Math.random() * 3);
   superficie.src = `./img/planetas/superficie${current_sur}.svg`;
 
-  let current_moon = Math.floor(Math.random() * 2);
+  let current_moon = Math.random() > 0.5 ? 0 : 1;
   luna.src = `./img/planetas/luna${current_moon}.svg`;
 
-  let current_rings = Math.floor(Math.random() * 2);
+  let current_rings = Math.random() > 0.3 ? 0 : 1;
   anillos.src = `./img/planetas/anillos${current_rings}.svg`;
 
-  let current_clouds = Math.floor(Math.random() * 2);
+  let current_clouds = Math.random() > 0.3 ? 0 : 1;
   nubes.src = `./img/planetas/nubes${current_clouds}.svg`;
 }
