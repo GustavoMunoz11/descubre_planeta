@@ -103,8 +103,8 @@ button:hover {
 
 @media screen and (max-width: 600px) {
   #animation_container {
-    width: 100%;
-    height: 100dvh;
+    width: 400px;
+    height: 667px;
   }
 
   #fondo {
