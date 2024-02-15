@@ -23,12 +23,12 @@
 }
 
 #mensajes {
-  width: 0%;
-  height: 0%;
+  width: 40%;
+  height: 36%;
   background-color: beige;
   color: black;
   padding-top: 3%;
-  font-size: 0rem;
+  font-size: 1.2rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   position: absolute;
@@ -37,12 +37,15 @@
   top: 43%;
   left: 23%;
   z-index: 1;
+  animation: show_message 4000ms linear 500ms forwards;
+  overflow: hidden;
 }
 
 .show-mensajes {
   width: 40% !important;
   height: 36% !important;
   font-size: 1.2rem !important;
+  top: 43% !important;
 }
 
 #telescopio {
@@ -110,6 +113,28 @@ button:hover {
   top: 9%;
 }
 
+@keyframes show_message {
+  0% {
+    width: 40%;
+    height: 36%;
+    font-size: 1.2rem;
+    top: 43%;
+  }
+
+  90% {
+    width: 40%;
+    height: 36%;
+
+    top: 43%;
+  }
+
+  100% {
+    width: 0%;
+    height: 0%;
+    top: 67%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #animation_container {
     width: 400px;
@@ -139,12 +164,42 @@ button:hover {
     left: 4%;
   }
 
+  #mensajes {
+    width: 80%;
+    height: 25%;
+    font-size: 1rem !important;
+    width: 80%;
+    top: 52%;
+    left: 12%;
+  }
+
   .show-mensajes {
     width: 80% !important;
     height: 25% !important;
-    font-size: 1rem !important;
+
     top: 52% !important;
-    left: 12% !important;
+  }
+
+  @keyframes show_message {
+    0% {
+      width: 80%;
+      height: 25%;
+      font-size: 1.2rem;
+      top: 52%;
+    }
+
+    90% {
+      width: 80%;
+      height: 25%;
+
+      top: 52%;
+    }
+
+    100% {
+      width: 0%;
+      height: 0%;
+      top: 75%;
+    }
   }
 
   #telescopio {
