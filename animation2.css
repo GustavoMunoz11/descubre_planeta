@@ -64,17 +64,21 @@ button {
   height: 60%;
   position: absolute;
   top: 8%;
-  left: 37%;
+  left: 34%;
 }
 
 #planet_container.small_planet {
   width: 28%;
   height: 40%;
+  top: 13%;
+  left: 38%;
 }
 
 #planet_container.large_planet {
   width: 50%;
   height: 75%;
+  top: 0%;
+  left: 28%;
 }
 
 @media screen and (max-width: 600px) {
@@ -86,8 +90,18 @@ button {
   #planet_container {
     width: 60%;
     height: 30%;
-    left: 20%;
-    top: 19%;
+    left: 22%;
+    top: 14%;
+  }
+
+  #planet_container.small_planet {
+    top: 22%;
+    left: 40%;
+  }
+
+  #planet_container.large_planet {
+    top: 17%;
+    left: 28%;
   }
 
   .boton_container {
