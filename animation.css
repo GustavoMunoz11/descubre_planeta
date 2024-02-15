@@ -18,15 +18,12 @@
 }
 
 #mensajes {
-  width: 40%;
-  height: 35%;
-}
-
-.show-mensajes {
+  width: 0%;
+  height: 0%;
   background-color: beige;
   color: black;
   padding-top: 3%;
-  font-size: 1.2rem;
+  font-size: 0rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   position: absolute;
@@ -34,6 +31,12 @@
   top: 43%;
   left: 23%;
   z-index: 1;
+}
+
+.show-mensajes {
+  width: 40% !important;
+  height: 36% !important;
+  font-size: 1.2rem !important;
 }
 
 #telescopio {
@@ -123,15 +126,12 @@ button:hover {
     left: 4%;
   }
 
-  #mensajes {
-    width: 80%;
-    height: 20%;
-  }
-
   .show-mensajes {
-    font-size: 0.75rem;
-    top: 52%;
-    left: 10%;
+    width: 80% !important;
+    height: 20% !important;
+    font-size: 1rem !important;
+    top: 52% !important;
+    left: 12% !important;
   }
 
   #telescopio {
