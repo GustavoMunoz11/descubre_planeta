@@ -9,6 +9,11 @@
   display: none;
 }
 
+#click_me {
+  z-index: 2 !important;
+  display: none;
+}
+
 #cientifica {
   width: 18%;
   left: 5%;
@@ -28,6 +33,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   position: absolute;
   text-align: center;
+  border-radius: 20px;
   top: 43%;
   left: 23%;
   z-index: 1;
@@ -121,6 +127,13 @@ button:hover {
     top: -1%;
   }
 
+  #click_me {
+    display: block;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    top: 93%;
+    left: 12%;
+  }
   #cientifica {
     width: 32%;
     left: 4%;
@@ -128,7 +141,7 @@ button:hover {
 
   .show-mensajes {
     width: 80% !important;
-    height: 20% !important;
+    height: 25% !important;
     font-size: 1rem !important;
     top: 52% !important;
     left: 12% !important;
